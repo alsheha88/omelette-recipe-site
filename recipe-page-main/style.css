@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    height: 100vh;
+    font-family: 'Outfit';
+    background-color: hsl(30, 54%, 90%);
+}
+h1, h2 {
+    font-family: 'Young serif';
+    color: hsl(332, 51%, 32%);
+    margin: 1rem 0;
+}
+span{
+    font-weight: bold;
+}
+
+.container{
+    
+    width: 100%;
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.receipe-wrapper{
+    width: 70%;
+    height: fit-content;
+    
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    padding: 1.5rem;
+}
+.prep-time{
+    background-color: hsl(330, 100%, 98%);
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+.prep-time ul {
+    margin-top: 0.5rem;
+}
+.prep-time ul li{
+    margin: 1rem 1rem;
+    
+
+}
+.prep-time ul li::marker, ol li::marker{
+    color: hsl(332, 51%, 32%);
+
+}
+.ingredients li::marker{
+    color: hsl(332, 51%, 32%);
+
+}
+
+.ingredients li{
+    margin: 1rem;
+
+}
+ol li {
+    margin: 1rem;
+}
+hr{
+    height: 2px;
+}
+img{
+    width: 100%;
+    border-radius: 1rem;
+    margin-bottom: 10px;
+    
+}
+
+.nutrition p{
+    margin: 0.5rem 0;
+    
+   
+}
+.nutrition-fact{
+    color: hsl(332, 51%, 32%);
+    font-weight: bold;
+}
+table {
+    border-collapse: collapse;   /* important for clean lines */
+    width: 100%;
+}
+
+td{
+    padding: 10px;
+    border-bottom: 1px solid #ccc;   /* horizontal line */
+}
